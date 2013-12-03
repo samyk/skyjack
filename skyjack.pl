@@ -18,8 +18,11 @@ my @drone_macs = qw/90:03:B7 A0:14:3D 00:12:1C 00:26:7E/;
 
 use strict;
 
-my $interface = shift || "wlan1";
+my $interface  = shift || "wlan1";
 my $interface2 = shift || "wlan0";
+
+# the JS to control our drone
+my $controljs  = shift || "drone_control/drone_pwn.js";
 
 # paths to applications
 my $dhclient	= "dhclient";
@@ -133,7 +136,7 @@ while (1)
 			sudo($dhclient, "-v", $interface2);
 
 			print "\n\nTAKING OVER DRONE\n";
-			sudo($nodejs, "drone_pwn.js");
+			sudo($nodejs, $controljs);
 				
 		}
 

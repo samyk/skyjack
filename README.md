@@ -1,11 +1,16 @@
-# SkyJack
+# [SkyJack](http://samy.pl/skyjack)
 
 SkyJack is a drone engineered to autonomously seek out, hack, and wirelessly take full control over any other drones within wireless or flying distance, creating an army of zombie drones under your control.
 
 by [@SamyKamkar](https://twitter.com/samykamkar) // <code@samy.pl> // <http://samy.pl> // Dec 2, 2013
 
+Code available on [github](https://github.com/samyk/skyjack)
+
 ----
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=EHKV01YQX_w
+" target="_blank"><img src="http://img.youtube.com/vi/EHKV01YQX_w/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 
 ## Overview
 
@@ -17,8 +22,11 @@ SkyJack also works when grounded as well, no drone is necessary on your end for 
 
 ![http://samy.pl/skyjack/drone-pwn.png](http://samy.pl/skyjack/drone-pwn-small.png)
 
+------
+
 ## Download
 You can acquire SkyJack from github: <https://github.com/samyk/skyjack>
+
 
 
 ### Software
@@ -59,11 +67,10 @@ I also use the [Edimax EW-7811Un](http://www.amazon.com/gp/product/B003MTTJOY/re
 I suggest any [USB battery](http://www.amazon.com/gp/product/B003IHV326/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003IHV326&linkCode=as2&tag=samypl0c-20) which is light (under 100 grams), and can output close to an amp (1000mAh). The Raspberry Pi + wifi will likely use about this much juice. You could also possibly hook up three AAA batteries together to get about 4.5V out which would be a bit lighter, though I'm not sure how much current it will be able to output.
 
 
-### Questions?
+## Questions?
 
 Feel free to contact me with any questions!
 
 You can reach me at <code@samy.pl>.
 
 Follow [@SamyKamkar](https://twitter.com/samykamkar) on Twitter or check out <http://samy.pl> for my other projects.
-
