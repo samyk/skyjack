@@ -10,7 +10,7 @@ Code available on [github](https://github.com/samyk/skyjack)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=EHKV01YQX_w
 " target="_blank"><img src="http://img.youtube.com/vi/EHKV01YQX_w/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
+alt="SkyJack - autonomous drone control" width="480" height="360" border="10" /></a>
 
 ## Overview
 
@@ -38,7 +38,7 @@ I detect drones by seeking out any wireless connections from MAC addresses owned
 
 #### aircrack-ng
 
-I use [aircrack-ng](http://www.aircrack-ng.org/) to put our wireless device into monitor mode to find our drones and drone owners. I then use aireplay-ng to [deauthenticate](http://www.aircrack-ng.org/doku.php?id=deauthentication) the true owner of the drone I'm targetting. Once deauthenticated, I can connect as the drone is waiting for its owner to reconnect.
+I use [aircrack-ng](http://www.aircrack-ng.org/) to put our wireless device into monitor mode to find our drones and drone owners. I then use aireplay-ng to [deauthenticate](http://www.aircrack-ng.org/doku.php?id=deauthentication) the true owner of the drone I'm targeting. Once deauthenticated, I can connect as the drone is waiting for its owner to reconnect.
 
 #### node-ar-drone
 I use [node-ar-drone](https://github.com/felixge/node-ar-drone) to control the newly enslaved drone via Javascript and [node.js](http://nodejs.org).
