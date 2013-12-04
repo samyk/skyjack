@@ -41,6 +41,7 @@ sudo($ifconfig, $interface, "down");
 
 # tmpfile for ap output
 my $tmpfile = "/tmp/dronestrike";
+my %skyjacked;
 
 while (1)
 {
@@ -128,6 +129,8 @@ while (1)
 		# connect to each drone and run our zombie client!
 		foreach my $drone (keys %chans)
 		{
+			# ignore drones we've skyjacked before
+			next if $skyjacked{$chans{$drone}[1]}++;
 
 			print "\n\nConnecting to drone $chans{$drone}[1] ($drone)\n";
 			sudo($iwconfig, $interface2, "essid", $chans{$drone}[1]);
