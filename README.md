@@ -8,8 +8,9 @@ Code available on [github](https://github.com/samyk/skyjack)
 
 ----
 
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=EHKV01YQX_w
-" target="_blank"><img src="http://img.youtube.com/vi/EHKV01YQX_w/0.jpg" 
+" target="_blank">Watch the video here<br><img src="http://img.youtube.com/vi/EHKV01YQX_w/0.jpg" 
 alt="SkyJack - autonomous drone control" width="480" height="360" border="10" /></a>
 
 ## Overview
