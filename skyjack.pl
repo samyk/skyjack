@@ -13,7 +13,7 @@
 # mac addresses of ANY type of drone we want to attack
 # Parrot owns the 90:03:B7 block of MACs and a few others
 # see here: http://standards.ieee.org/develop/regauth/oui/oui.txt
-my @drone_macs = qw/90:03:B7 A0:14:3D 00:12:1C 00:26:7E/;
+my @drone_macs = qw/90:03:B7 00:12:1C 90:3A:E6 A0:14:3D 00:12:1C 00:26:7E/;
 
 
 use strict;
