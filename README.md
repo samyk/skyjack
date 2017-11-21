@@ -3,6 +3,7 @@
 SkyJack is a drone engineered to autonomously seek out, hack, and wirelessly take full control over any other drones within wireless or flying distance, creating an army of zombie drones under your control.
 
 **Update:** Proof of Concept of [SkyJack for 3D Robotics drones](https://samy.pl/skyjack/3dr/) using the TI CC1111 chipsets [August 2015]
+
 The update uses a sub-GHz RF transciever to predict frequency hopping pattern + ID of 3DR telemetry modules, allowing full remote takeover of nearby drones, similar to the Parrot attack (with no wifi required).
 
 by [@SamyKamkar](https://twitter.com/samykamkar) // <code@samy.pl> // <http://samy.pl> // Dec 2, 2013
